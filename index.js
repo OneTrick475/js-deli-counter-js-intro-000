@@ -23,6 +23,6 @@ function currentLine(katzDeliLine){
       katzDeliLine[i] = ` ${a}. ${katzDeliLine[i]}`;
       a++;
     }
-    return `The line is currently: ${katzDeliLine}`
+    return `The line is currently:${katzDeliLine}`
   }
 }
